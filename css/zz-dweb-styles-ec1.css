@@ -1,0 +1,32 @@
+/* Iframe Typeform widget */
+
+.typeform-widget {
+  width: 100%; 
+  height: 400px;
+  /*margin-left: 30%;*/ 
+  margin-top: -5%;
+}
+.node299590 .article-wrapper, .node556286 .article-wrapper {
+  text-align: justify;
+  padding: 0 10.25vw 7vw 36px;
+}
+
+.content227942 #zone2 > div > div.article-content > div.typeform-widget {
+ margin-left: 30%;
+}
+
+#zone2 > div.block.block-page.edito.lp-concept-1.animated.animated-out > div > p:nth-child(7) > a {
+  font-weight: bold;
+  color: #2087c9;
+}
+
+.style4 {
+  color: red;
+}
+
+
+.content215734 img{
+    max-width: initial;
+}
+
+.gal-js-item-simple .gal-item-copy{display:none;}
