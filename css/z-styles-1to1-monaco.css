@@ -2577,7 +2577,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 
 .btn-primary { border: 1px solid #fff; background: none; font-weight: 600; font-size: 17px; letter-spacing: 0.025em; text-transform: none; font-family: 'Proxima Nova', sans-serif; padding: 14px 20px 14px; min-width: 144px; display: inline-block; position: relative; }
 .btn-primary:before { content: ''; display: inline-block; width: 0; height: 0; border-style: solid; border-width: 4.5px 0 4.5px 6px; border-color: transparent transparent transparent #ffffff; margin-right: 0; }
-.btn-primary:hover { background: #1770af; border-color: #cc327e; }
+.btn-primary:hover { background: #1770af; border-color: #1770af; }
 
 
 
