@@ -2011,7 +2011,7 @@ p { line-height: 2; }
 .article-wrapper figure.center small { letter-spacing: 0.02em; }
 .article-wrapper figure.center p { margin: 0; font-size: 0.94vw; letter-spacing: 0.1em; font-weight: 600; color: #0c0803; text-transform: uppercase; }
 
-.article-wrapper custom { display: block; padding: 2.89vw 2.19vw 3.5vw; margin-bottom: 6vw; margin-right: -31px; background: #fcf4fa; }
+.article-wrapper custom { display: block; padding: 2.89vw 2.19vw 3.5vw; margin-bottom: 6vw; margin-right: -31px; background: #deefff; }
 .article-wrapper custom p { margin-bottom: 34px; letter-spacing: 0; }
 .article-wrapper custom .focus2 { margin: 0; }
 
