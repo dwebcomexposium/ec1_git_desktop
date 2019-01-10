@@ -10,6 +10,15 @@ body { min-width: 1024px; height: auto !important; overflow-x: hidden; overflow-
 
 p { line-height: 2; }
 
+
+div, textarea, table, td, th, code, pre, samp {
+word-wrap: normal;
+-webkit-hyphens: none;
+   -moz-hyphens: none;
+    -ms-hyphens: none;
+        hyphens: none;
+}
+
 /* ------------------------------------------------------------ *\
 	Fonts
 \* ------------------------------------------------------------ */
@@ -46,13 +55,6 @@ p { line-height: 2; }
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Always In My Heart';
-    src: url('fonts/alwaysinmyheart/AlwaysInMyHeart.woff2') format('woff2'),
-         url('fonts/alwaysinmyheart/AlwaysInMyHeart.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
 
 /* ------------------------------------------------------------ *\
 	Global Wrapper
@@ -1020,7 +1022,7 @@ p { line-height: 2; }
 .block.news .caroufredsel_wrapper.animated-out:before { bottom: -25vw; }
 
 .block.news .main-title-with-link { margin: 0 -87px 2.81vw 0; margin: 0 -104px 2.81vw 0; border: 0; text-align: right; }
-.block.news .main-title-with-link h2 { font-family: 'Always In My Heart', cursive; font-size: 75px; line-height: 1; font-weight: 400; color: #fff; text-transform: capitalize; float: none; display: inline-block; padding: 31px 59px; min-width: 310px; border-radius: 10vw 0 0 10vw; background: #1770af; text-align: left;  }
+.block.news .main-title-with-link h2 { font-family: 'Proxima Nova', sans-serif; font-size: 30px; line-height: 1; font-weight: 700; color: #fff; text-transform: uppercase; float: none; display: inline-block; padding: 31px 59px; min-width: 310px; border-radius: 10vw 0 0 10vw; background: #1770af; text-align: left; letter-spacing: 2px; }
 
 .block.news .slider-paging { margin-bottom: 2.4vw; text-align: right; }
 .block.news .slider-paging span { display: none; }
@@ -1218,7 +1220,7 @@ p { line-height: 2; }
 
 .block.comite .grid-la-list { position: relative; display: block; padding-top: 50vw; margin: 0; z-index: 0; }
 .block.comite .gla-item-btn { display: none; }
-.block.comite .gla-item-title { padding-top: 4vw; font-family: 'Proxima Nova', sans-serif; font-size: 1.22vw; font-weight: 700; text-decoration: none; }
+.block.comite .gla-item-title { padding-top: 4vw; font-family: 'Proxima Nova', sans-serif; font-size: 0.92vw; font-weight: 700; text-decoration: none; }
 
 .block.comite .gla-item-content { position: absolute; display: block; padding: 0 0 0.5em; top: 1.5vw; left: 1.5vw; right: 1.5vw; bottom: 1.5vw; opacity: 0; visibility: hidden; background: rgba(0, 47, 61, 0.9); border-radius: 50%; overflow: hidden; 
 	-webkit-transition: opacity .3s, visibility .3s; 
@@ -2645,7 +2647,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .la-slider .slider-item { max-width: 100%; width: 100%; position: relative; }
 .la-slider .slider-item img { height: 100%; width: 100%; }
 
-.la-slider .slider-item .la-item-tag { padding: 0; position: static; background: none; font-family: 'Always In My Heart', sans-serif; text-transform: none; font-size: 37px; letter-spacing: 0.02em; margin-bottom: 9px; display: block; }
+.la-slider .slider-item .la-item-tag { padding: 0; position: static; background: none; font-family: 'Proxima Nova', sans-serif; text-transform: none; font-size: 37px; letter-spacing: 0.02em; margin-bottom: 9px; display: block; }
 .la-slider .slider-item .la-item-tag:after { content: ''; display: inline-block; width: 15px; height: 15px; background: #1770af; border-radius: 50%; margin-left: 20px;  }
 .la-slider .slider-item .la-item-title { font-weight: 700; font-size: 45px; line-height: 1.07; text-transform: uppercase; padding-left: 5px; letter-spacing: 0.06em; margin-bottom: 47px; }
 .la-slider .slider-item .la-item-title br { display: none; }
@@ -2801,14 +2803,14 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .slider-main-outer .slider-item { max-width: 100%; width: 100%; position: relative; }
 .slider-main-outer .slider-item img {  height: 100%; width: 100%; opacity: 0; }
 
-.slider-main-outer .slider-item .la-item-tag { padding: 0; position: static; background: none; font-family: 'Always In My Heart', sans-serif; text-transform: none; font-size: 37px; letter-spacing: 0.02em; margin-bottom: 9px; display: block; }
-.slider-main-outer .slider-item .la-item-tag:after { content: ''; display: inline-block; width: 15px; height: 15px; background: #1770af; border-radius: 50%; margin-left: 20px;  }
-.slider-main-outer .slider-item .la-item-title { font-weight: 700; font-size: 55px; font-size: 45px;  line-height: 1.07; text-transform: uppercase; padding-left: 5px; letter-spacing: 0.06em; margin-bottom: 47px; }
+.slider-main-outer .slider-item .la-item-tag { padding: 0; position: static; background: none; font-family: 'Proxima Nova', sans-serif; text-transform: none; font-size: 20px; letter-spacing: 0.05em; margin-bottom: 10px; display: block; font-weight: 300; }
+.slider-main-outer .slider-item .la-item-tag:after { content: ''; display: inline-block; width: 15px; height: 15px; background: #1770af; border-radius: 50%; margin-left: 12px; margin-bottom: -1px; }
+.slider-main-outer .slider-item .la-item-title { font-weight: 700; font-size: 42px;  line-height: 1.07; text-transform: uppercase; padding-left: 5px; letter-spacing: 0.06em; margin-bottom: 35px; }
 .slider-main-outer .slider-item .la-item-title a { color: #fff; }
 .slider-main-outer .slider-item .la-item-title a:hover { text-decoration: none; }
 
 .slider-main-outer .slider-item .la-item-title br { display: none; }
-.slider-main-outer .slider-item .la-item-content { position: absolute; top: 0; left: 0; width: 650px; padding: 86px 0 0 77px; }
+.slider-main-outer .slider-item .la-item-content { position: absolute; top: 0; left: 0; width: 700px; padding: 86px 0 0 77px; }
 
 .slider-main-outer .slider-item .la-item-btn { padding-left: 8px; }
 
@@ -2851,19 +2853,24 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 @media (max-width: 1365px) {
 	.slider-main-outer .slider-item .la-item-content { padding: 30px 0 0 40px; }
 	.slider-main-outer .slider-paging { padding-left: 40px; }
+	.slider-main-outer .slider-item .la-item-content { width: 500px;  }
+	.slider-main-outer .slider-item .la-item-title { font-size: 37px;  }
+	.slider-main-outer .slider-item .la-item-tag { font-size: 16px; }
+	
+	
+	
 }
 
 @media (max-width: 1199px) {
 	.slider-main-outer:after { top: 40px; right: -199px; width: 374px; height: 369px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }	
-
-	.slider-main-outer .slider-item .la-item-tag { font-size: 30px; }
-	.slider-main-outer .slider-item .la-item-title { font-size: 35px; margin-bottom: 27px; }
+.slider-main-outer .slider-item .la-item-content { width: 550px;  }
+.slider-main-outer .slider-item .la-item-title { font-size: 32px;  margin-bottom: 17px;}
+.slider-main-outer .slider-item .la-item-tag { font-size: 15px; }
 }
 
 @media (max-width: 1023px) {
 	.slider-main-outer .slider-item .la-item-content { width: 500px; padding: 50px 0 0 20px; }
-	.slider-main-outer .slider-item .la-item-tag { font-size: 28px; }
-	.slider-main-outer .slider-item .la-item-title { font-size: 33px; }
+/*	.slider-main-outer .slider-item .la-item-title { font-size: 33px; }*/
 }
 
 @media (max-width: 767px) {
@@ -2874,9 +2881,9 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 	.slider-main-outer .slider-item .la-item-content { width: 100%; padding: 88px 22px 20px; }
 	.slider-main-outer .slider-item { background-size: cover; }
 
-	.slider-main-outer .slider-item .la-item-tag { font-size: 27px; margin-bottom: 3px; }
+	.slider-main-outer .slider-item .la-item-tag { font-size: 17px; margin-bottom: 3px; }
 	.slider-main-outer .slider-item .la-item-tag:after { width: 8px; height: 8px; }
-	.slider-main-outer .slider-item .la-item-title { font-size: 28px;}
+	.slider-main-outer .slider-item .la-item-title { font-size: 30px;}
 	.slider-main-outer .slider-item .btn-primary { min-width: 159px; }
 
 	.slider-main-outer .slider-paging { padding: 0; bottom: 32px; text-align: center;  }
@@ -2899,5 +2906,3 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .h_iframe .ratio { display: block; 	width: 100%; height: auto }
 .h_iframe iframe { position: absolute; top: 0; left: 0; 	width: 100%; height: 100% }
 
-/*.front .section-tertiary, .front .partner, .front .participants, .site-banner .lang-switcher { display: none; }*/
-/*.site-banner .main-navigation { float: right; padding: 0 2.7vw 0 0;  }*/
