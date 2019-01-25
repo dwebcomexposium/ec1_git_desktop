@@ -30,3 +30,7 @@
 }
 
 .gal-js-item-simple .gal-item-copy{display:none;}
+
+.animations .la-list {
+    background: #fff;
+}
