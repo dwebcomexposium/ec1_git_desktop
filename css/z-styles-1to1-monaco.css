@@ -971,11 +971,11 @@ word-wrap: normal;
 .list-partners:after { content: ''; display: table; line-height: 0; clear: both; }
 
 .list-partners li { float: left; padding: 20px 0; max-width: 100px; }
-.list-partners li + li { margin-left: 2.8vw; }
+.list-partners li { margin-right: 2.8vw; }
 
 @media (max-width: 767px) {
 	.list-partners li { float: none; }
-	.list-partners li + li { margin: 10px 0 0; }
+/*	.list-partners li + li { margin: 10px 0 0; }*/
 }
 
 /* ------------------------------------------------------------ *\
