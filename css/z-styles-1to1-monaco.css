@@ -2911,3 +2911,9 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 
 
 .article-wrapper ul.list-partners li:after { display: none ; }
+
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+	background: none;
+}
+
