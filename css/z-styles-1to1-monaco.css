@@ -2040,8 +2040,6 @@ h1.main-title { font-family: 'Proxima Nova', sans-serif; font-size: 37px; line-h
 
 .article-wrapper .article-content p { font-size: 17px; line-height: 1.71 !important;  }
 /*.article-wrapper .article-content #eztoc_2_1 + h2 { margin-top: 77px; }*/
-.article-wrapper .article-content #eztoc_2_2_3_1 + h4 { display: block; background: none; color: #1770af; font-weight: 700; font-size: 27px; text-align: left; padding: 0; text-transform: none; margin: 0 0 20px; padding-top: 10px; letter-spacing: 0; position: relative; }
-.article-wrapper .article-content #eztoc_2_2_3_1 + h4:after { content: ''; position: absolute; top: 155px; left: calc(-6.09vw - 36px); background: url(images/circle8.png) no-repeat 0 0; width: 238px; height: 398px;   }
 .article-wrapper .article-content .block.edito + p { margin-top: -56px; }
 .article-wrapper .article-content p + ul { margin-top: -6px; }
 .article-wrapper .article-content #eztoc_3_2_1 + h3 { margin: 5.4vw 0 4vw; letter-spacing: 0; position: relative; }
@@ -2913,7 +2911,10 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .article-wrapper ul.list-partners li:after { display: none ; }
 
 
+/* ------------------------------------------------------------ *\
+    div
+\* ------------------------------------------------------------ */
+
 .btn-primary:focus, .btn-primary:hover, .btn-primary:active {
 	background: none;
 }
-
