@@ -2038,7 +2038,7 @@ h1.main-title { font-family: 'Proxima Nova', sans-serif; font-size: 37px; line-h
 .article-wrapper .article-intro { margin: 0 0 3.8vw; letter-spacing: -0.02em; }
 .article-wrapper .at-publication { display: none; }
 
-.article-wrapper .article-content p { font-size: 17px; line-height: 1.71 !important;  }
+/*.article-wrapper .article-content p { font-size: 17px; line-height: 1.71 !important;  }*/
 /*.article-wrapper .article-content #eztoc_2_1 + h2 { margin-top: 77px; }*/
 .article-wrapper .article-content .block.edito + p { margin-top: -56px; }
 .article-wrapper .article-content p + ul { margin-top: -6px; }
