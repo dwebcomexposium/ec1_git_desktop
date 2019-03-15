@@ -2942,3 +2942,6 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 @media (max-width: 1023px) {
 	.speakers .cl-content .cl-item { width: 50%;  }
 }
+
+
+.article-content hr {background: none; clear: both; }
