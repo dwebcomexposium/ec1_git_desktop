@@ -2920,7 +2920,6 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 }
 
 
-
 /*Speakers*/
 .speakers .article-wrapper { padding: 73px 36px 7vw 36px;  }
 .speakers .cl-content { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
@@ -2936,7 +2935,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 }
 
 .speakers .cl-item .cl-item-content .cl-item-title { font-size: 19px; font-weight: 600; }
-.speakers .cl-item .cl-item-content .cl-item-subtitle { font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #c50084; line-height: 1.2!important; margin: 7px 0 10px; }
+.speakers .cl-item .cl-item-content .cl-item-subtitle { font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #2087c9; line-height: 1.2!important; margin: 7px 0 10px; }
 
 .speakers .cl-item .cl-item-content .cl-item-desc { font-size: 15px; line-height: 1.3!important; }
 
