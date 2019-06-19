@@ -817,7 +817,7 @@ word-wrap: normal;
 
 .block.edito { position: relative; padding-left: 6vw; margin-bottom: 8vw; }
 
-.block.edito h2 { font-family: 'Proxima Nova', sans-serif; font-weight: 700;  max-width: 60%; font-size: 35px; color: #262626; position: relative; padding: 0; margin: 0 0 2.5vw; border: 0; z-index: 2; line-height: 1.15; z-index: 15; letter-spacing: 0.02em; }
+.block.edito h2, .block.edito h1 { font-family: 'Proxima Nova', sans-serif; font-weight: 700;  max-width: 60%; font-size: 35px; color: #262626; position: relative; padding: 0; margin: 0 0 2.5vw; border: 0; z-index: 2; line-height: 1.15; z-index: 15; letter-spacing: 0.02em; }
 .block.edito h4 { font-family: 'Glegoo', serif; font-size: 1.41vw; font-weight: 600; letter-spacing: -0.02em; color: #262626; position: relative; margin: 0 0 -0.39vw; z-index: 2; }
 .block.edito p { max-width: 60%; margin: 0 0 1.68vw; font-size: 1.25vw; letter-spacing: -0.02em; position: relative; z-index: 2; }
 .block.edito p a:not([class]) { color: inherit; }
@@ -948,7 +948,7 @@ word-wrap: normal;
 
 @media (max-width: 1199px) {
 	.block.edito { padding-left: 0; }
-	.block.edito h2 { max-width: 100%; }
+	.block.edito h2, .block.edito h1 { max-width: 100%; }
 	.block.edito p { max-width: 100%; font-size: 17px; }
 	.block.edito .edito-content { width: 100%; }
 	.block.edito .edito-inner { margin: 30px 0;  }
@@ -2919,6 +2919,9 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 	background: none;
 }
 
+.article-content hr {background: none; clear: both; }
+
+
 
 /*Speakers*/
 .speakers .article-wrapper { padding: 73px 36px 7vw 36px;  }
@@ -2944,13 +2947,12 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 }
 
 
-.article-content hr {background: none; clear: both; }
-
 /*lp invite*/
 .lp-invite .section-primary,.lp-invite  #zone2 .main-navigation { display: none; }
 .lp-invite .article-intro p { font-weight: bold }
 .lp-invite .article-intro { margin-bottom: 10px; }
 .lp-invite ul.style4 { margin-top: -5vw; margin-bottom: 30px; }
+.lp-invite ul.style4 { color: inherit; }
 
 .lp-invite ul.style4 li:after { display: none; }
 .lp-invite ul.style4 li { clear: both; padding:0 0 30px ; }
