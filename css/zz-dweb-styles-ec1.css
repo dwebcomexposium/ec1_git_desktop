@@ -83,3 +83,10 @@
 .list-grids-with-pagin h2.gla-item-title {
     margin-bottom: 84px;
 }
+ul.menudossiers li a, ul.menudossiers li {
+    /* width: 18%; */
+    display: inline;
+    padding: 20px;
+    font-size: medium;
+    color: #1770af;
+}
