@@ -67,3 +67,16 @@
     transition: background .4s, color .4s;
     background: white;
 }
+
+.list-grids-with-pagin [class*="grid-"] > * {
+    width: calc(100% * 1 / 2 - 1em - .01px);
+}
+.list-grids-with-pagin .gla-item-content {
+    left: 338px;
+}
+.list-grids-with-pagin .gla-item-content .gla-item-btn {
+    margin-top: 30px;
+    position: absolute;
+    bottom: 8px;
+    left: 117px;
+}
