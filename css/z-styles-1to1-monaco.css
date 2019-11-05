@@ -2969,3 +2969,30 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 @media (min-width: 1600px) {
 	.lp-invite .block.edito .edito-inner { margin-top: 9vw; }
 }
+
+
+
+/*lp club*/
+
+.lp-club .section-primary,.lp-club  #zone2 .main-navigation { display: none; }
+.lp-club ul.style2 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px;  }
+.lp-club ul.style2 li:before { display: none!important; }
+.lp-club ul.style2 li { padding:0 35px 25px 0 ; margin: 0; line-height: 1.7; text-align: center; font-size: 17px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; width: 50%; padding-left: 14px; padding: 0 50px; }
+.lp-club ul.style2 li:after {display: none; }
+.lp-club ul.style2 li figure {margin: 0!important; padding: 0!important; }
+.lp-club .article-wrapper .at-main-title, .lp-club .article-wrapper blockquote, .lp-club .article-wrapper h3, .lp-club  .article-wrapper h2 {color: #7C6859;  }
+.lp-club .article-wrapper .rhomboid-container { position: absolute; width: 30vw; height: 30vw !important; right: -35.6vw; top: 0; border-radius: 50%; z-index: 2; background: -webkit-linear-gradient(#7C6859 0.2%, #7C6859 100%); background: linear-gradient(#7C6859 0.2%, #7C6859 100%); padding: 50px; }
+
+.lp-club .block.edito .edito-image { position: absolute; width: 447px; height: 447px; background: -webkit-linear-gradient(#7C6859 0%, #9c8161 0.7%, #7C6859 100%); background: linear-gradient(#7C6859 0%, #9c8161 0.7%, #7C6859 100%); top: -30vw; left: 62%; border-radius: 50%; z-index: 200; padding: 65px; width: 30vw; height: 30vw; }
+
+.lp-club .article-wrapper h2:after { content: ''; display: inline-block; border-radius: 50%; background: #7C6859; width: 14px; height: 14px; margin-left: 22px; }
+
+.lp-club .article-wrapper blockquote:before { filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter'); -webkit-filter: grayscale(1); filter: grayscale(1); }
+
+
+/*3 col*/
+ul.style3 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px;  }
+ul.style3 li:before { display: none!important; }
+ul.style3 li { padding:0 35px 25px 0 ; margin: 0; line-height: 1.7; text-align: center; font-size: 17px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; width: 50%; padding-left: 14px; padding: 0 50px; }
+ul.style3 li:after {display: none; }
+ul.style3 li figure {margin: 0!important; padding: 0!important; }
