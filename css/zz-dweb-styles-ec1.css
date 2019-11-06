@@ -90,3 +90,6 @@ ul.menudossiers li a, ul.menudossiers li {
     font-size: medium;
     color: #1770af;
 }
+.block.block-small.list-articles.connexe.animated {
+    width: 100%;
+}
