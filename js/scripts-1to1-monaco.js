@@ -3,7 +3,7 @@
 	var $doc = $(document);
 	var $header = $('.site-banner');
 	var $homeSlider = $('.slider-images .slides');
-	var animatedElements = '.block.edito, .section-tertiary, .block.news .caroufredsel_wrapper, .block.participants, .section-partners, .slider-feeds, .contacts-list, .members, .list-articles, .article-title, .article-wrapper .article-intro, .article-wrapper .article-content, body.article_list .list-articles .la-item, .article-alt';
+	var animatedElements = '.block.edito, .section-tertiary, .block.news .caroufredsel_wrapper, .block.participants, .section-partners, .slider-feeds, .contacts-list, .members, .list-articles, .article-title, .article-wrapper .article-intro, .article-wrapper .article-content, body.article_list .list-articles .la-item, .article-alt, .lp-dossier .gla-item';
 	var rhomboids = '.block.comite .gla-item > a, .rhomboid-container, .edito-image-secondary';
 	var members = [];
 	var $member = $('.block.comite .gla-item');
