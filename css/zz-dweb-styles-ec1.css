@@ -34,7 +34,7 @@
 
 
 /* Dossiers thématiques */ 
-.list-grids-with-pagin img.gla-item-img { 
+/*.list-grids-with-pagin img.gla-item-img { 
 	border-radius: 50%;
     border: 40px solid #f5f5f5;
     width: 330px;
@@ -84,7 +84,6 @@
     margin-bottom: 84px;
 }
 ul.menudossiers li a, ul.menudossiers li {
-    /* width: 18%; */
     display: inline;
     padding: 20px;
     font-size: medium;
@@ -93,3 +92,4 @@ ul.menudossiers li a, ul.menudossiers li {
 .block.block-small.list-articles.connexe.animated {
     width: 100%;
 }
+*/ 
