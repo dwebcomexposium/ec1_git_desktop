@@ -3038,6 +3038,12 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 .lp-dossier .main-title-with-link > .main-title div:after { content: ''; display: inline-block; border-radius: 50%; background: #1770af; width: 14px; height: 14px; margin-left: 22px; }
 .lp-dossier .gla-item { -webkit-transform: translateY(100px); transform: translateY(100px); opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -webkit-transition: transform .4s, opacity .6s; -webkit-transition: opacity .6s, -webkit-transform .4s; transition: opacity .6s, -webkit-transform .4s; transition: transform .4s, opacity .6s; transition: transform .4s, opacity .6s, -webkit-transform .4s; }
 .lp-dossier .gla-item.animated { opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; -webkit-transform: translateY(0); transform: translateY(0);  }
+
 @media (max-width: 1023px) {
 	.lp-dossier .grid-la-list .gla-item  {width: 50%; }
+}
+
+@media (max-width: 767px) {
+		.lp-dossier .grid-la-list .gla-item  {width: 100%; }
+	
 }
