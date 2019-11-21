@@ -3,7 +3,7 @@
 	var $doc = $(document);
 	var $header = $('.site-banner');
 	var $homeSlider = $('.slider-images .slides');
-	var animatedElements = '.block.edito, .section-tertiary, .block.news .caroufredsel_wrapper, .block.participants, .section-partners, .slider-feeds, .contacts-list, .members, .list-articles, .article-title, .article-wrapper .article-intro, .article-wrapper .article-content, body.article_list .list-articles .la-item, .article-alt, .lp-dossier .gla-item';
+	var animatedElements = '.block.edito, .section-tertiary, .block.news .caroufredsel_wrapper, .block.slider-conf .caroufredsel_wrapper, .block.participants, .section-partners, .slider-feeds, .contacts-list, .members, .list-articles, .article-title, .article-wrapper .article-intro, .article-wrapper .article-content, body.article_list .list-articles .la-item, .article-alt, .lp-dossier .gla-item';
 	var rhomboids = '.block.comite .gla-item > a, .rhomboid-container, .edito-image-secondary';
 	var members = [];
 	var $member = $('.block.comite .gla-item');
@@ -360,6 +360,8 @@
 		}
 
 		$('.block.news').append( '<span class="circle skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".event"></span>' )
+		
+		$('.block.slider-conf').append( '<span class="circle skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".event"></span>' )
 
 		$('.block.comite .event').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".event"></span>' )
 
@@ -533,6 +535,10 @@
 		if ($('.block.news .slider-content').length) {
 			prepareSlider($('.block.news .slider-content'));
 		}
+		
+		if ($('.block.slider-conf .slider-content').length) {
+			prepareSlider($('.block.slider-conf .slider-content'));
+		}		
 
 		if ($('.partner.part').length) {
 			fixPgItems($('.partner.part'));
@@ -589,6 +595,10 @@
 		if( $('.list-articles.news').length ) {
 			$('.list-articles.news .la-item-img').wrap('<div class="la-item-img-outer"></div>');
 		}
+		
+		if( $('.list-articles.slider-conf').length ) {
+			$('.list-articles.slider-conf .la-item-img').wrap('<div class="la-item-img-outer"></div>');
+		}		
 
 	}).on('load scroll', function(){
 		var winST = $win.scrollTop();
