@@ -3190,3 +3190,7 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 	.block.slider-conf .slider-content { position: relative !important; }
 	.block.slider-conf .caroufredsel_wrapper { padding: 0; }
 }
+
+
+/*Lp no header*/
+.noheader #zone2 .section-primary, .noheader #zone2 .main-navigation { display: none; }
