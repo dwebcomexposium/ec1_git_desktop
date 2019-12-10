@@ -206,7 +206,7 @@
 			pagination: {
 				container: $slider.prev()
 			},
-			auto: false,
+			auto: 5500,
 			infinite: true,
 			onCreate: function() {
 				$slider.find('.la-item:first-child').addClass('active');
