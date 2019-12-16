@@ -3193,4 +3193,4 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 
 
 /*Lp no header*/
-.noheader #zone2 .section-primary, .noheader #zone2 .main-navigation { display: none; }
+.noheader #zone2 .section-primary, .noheader #zone2 .main-navigation,.noheader #zone2 .actions { display: none; }
