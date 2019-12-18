@@ -93,3 +93,6 @@ ul.menudossiers li a, ul.menudossiers li {
     width: 100%;
 }
 */ 
+.main-navigation .mn-menu > .mn-item-lvl-1:first-child {
+    display: block;
+}
