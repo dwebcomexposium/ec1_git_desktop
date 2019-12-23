@@ -2993,6 +2993,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 
 /*nav club*/
 .main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text { background: #7C6859; color: #fff; padding: 5px 10px; font-size: 15px; transition: padding .2s ease-in-out 0s; }
+.main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link.is-active .mn-link-text { background: #7C6859; color: #fff; }
 .main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text:hover { padding: 9px 10px;  }
 
 @media (max-width: 1620px) {
