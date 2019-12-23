@@ -2991,6 +2991,45 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-club .article-wrapper blockquote:before { filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter'); -webkit-filter: grayscale(1); filter: grayscale(1); }
 
 
+/*nav club*/
+.main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text { background: #7C6859; color: #fff; padding: 5px 10px; font-size: 15px; transition: padding .2s ease-in-out 0s; }
+.main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text:hover { padding: 9px 10px;  }
+
+@media (max-width: 1620px) {
+	.main-navigation .mn-menu li.mn-item-lvl-1 .mn-link-text {font-size: 16px;}	
+}
+@media (max-width: 1520px) {
+
+	.main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text {font-size: 13px; }
+	.main-navigation .mn-menu li.mn-item-lvl-1 .mn-link-text {font-size: 15px;}	
+	.main-navigation .mn-menu > .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 15px; }
+}
+
+@media (max-width: 1320px) {
+
+	.main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text {font-size: 12px; }
+	.main-navigation .mn-menu li.mn-item-lvl-1 .mn-link-text {font-size: 13px;}	
+	.main-navigation .mn-menu > .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 13px; }
+}
+
+@media (max-width: 1160px) {
+
+	.main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text {font-size: 10px; }
+	.main-navigation .mn-menu li.mn-item-lvl-1 .mn-link-text {font-size: 11px;}	
+	.main-navigation .mn-menu > .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 9px; }
+}
+
+@media (max-width: 1023px) {
+
+	.main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text {font-size: 16px; }
+	.main-navigation .mn-menu li.mn-item-lvl-1 .mn-link-text {font-size: 18px;}	
+	.main-navigation .mn-menu > .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 23px; }
+	
+}
+
+
+
+
 
 
 
@@ -3192,5 +3231,8 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 }
 
 
+
 /*Lp no header*/
-.noheader #zone2 .section-primary, .noheader #zone2 .main-navigation,.noheader #zone2 .actions { display: none; }
+.noheader #zone2 .section-primary, .noheader #zone2 .main-navigation { display: none; }
+
+
