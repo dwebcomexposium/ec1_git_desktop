@@ -2992,6 +2992,8 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-club .section .dates span { color: #5f4e43; }
 .lp-club .nav a:hover { color: #fff; }
 .lp-club .site-footer .quicklinks { border-top-color: #5f4e43; }
+.lp-club .logo { background-image: logo-club.svg; }
+
 
 
 /*nav club*/
@@ -3238,3 +3240,5 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 
 /*Lp no header*/
 .noheader #zone2 .section-primary, .noheader #zone2 .main-navigation { display: none; }
+
+
