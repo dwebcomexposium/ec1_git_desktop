@@ -2992,7 +2992,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-club .section .dates span { color: #5f4e43; }
 .lp-club .nav a:hover { color: #fff; }
 .lp-club .site-footer .quicklinks { border-top-color: #5f4e43; }
-.lp-club .logo { background-image: logo-club.svg; }
+.lp-club .logo { background-image: url(images/logo-club.svg); }
 
 
 
