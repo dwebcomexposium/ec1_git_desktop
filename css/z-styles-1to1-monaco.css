@@ -2645,7 +2645,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .la-slider .slider-item { max-width: 100%; width: 100%; position: relative; }
 .la-slider .slider-item img { height: 100%; width: 100%; }
 
-.la-slider .slider-item .la-item-tag { padding: 0; position: static; background: none; font-family: 'Proxima Nova', sans-serif; text-transform: none; font-size: 37px; letter-spacing: 0.02em; margin-bottom: 9px; display: block; }
+.la-slider .slider-item .la-item-tag { padding: 0; position: static; background: none; font-family: 'Proxima Nova', sans-serif; text-transform: none; font-size: 37px; letter-spacing: 0.02em; margin-bottom: 9px; display: block;  padding-left: 5px; }
 .la-slider .slider-item .la-item-tag:after { content: ''; display: inline-block; width: 15px; height: 15px; background: #1770af; border-radius: 50%; margin-left: 20px;  }
 .la-slider .slider-item .la-item-title { font-weight: 700; font-size: 45px; line-height: 1.07; text-transform: uppercase; padding-left: 5px; letter-spacing: 0.06em; margin-bottom: 47px; }
 .la-slider .slider-item .la-item-title br { display: none; }
@@ -3240,5 +3240,3 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 
 /*Lp no header*/
 .noheader #zone2 .section-primary, .noheader #zone2 .main-navigation { display: none; }
-
-
