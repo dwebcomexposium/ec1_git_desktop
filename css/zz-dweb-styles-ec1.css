@@ -96,3 +96,8 @@ ul.menudossiers li a, ul.menudossiers li {
 .main-navigation .mn-menu > .mn-item-lvl-1:first-child {
     display: block;
 }
+
+.parent502075 .lp-dossier .gla-item .gla-item-content .gla-item-title {
+    font-size: 25px;
+    font-weight: 600;
+}
