@@ -101,3 +101,8 @@ ul.menudossiers li a, ul.menudossiers li {
     font-size: 25px;
     font-weight: 600;
 }
+
+.cdiscount{float: right;
+    position: relative;
+    top: -224px;
+    left: 378px;}
