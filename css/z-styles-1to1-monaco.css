@@ -3050,7 +3050,7 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 
 /*lp dossier*/
 .lp-dossier .list-articles { padding: 20x 36px 20px 36px; }
-.lp-dossier .grid-la-list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.lp-dossier .grid-la-list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 100%; }
 .lp-dossier .grid-la-list .gla-item { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-flex: 1; -ms-flex: auto; flex: auto; width: 33%; padding-right: 30px; margin: 0 0 15px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;  max-width: 350px; box-shadow: none; }
 .lp-dossier .grid-la-list .gla-item-img { width: 225px; -webkit-box-flex: 0; -ms-flex: 0 1 auto; flex: 0 1 auto; border-radius: 100%;  border: 20px solid #f5f5f5; }
 .lp-dossier .grid-la-list .gla-item-content { -webkit-box-flex: 1; -ms-flex: auto; flex: auto; padding: 15px 0; width: auto; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; background: none; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
