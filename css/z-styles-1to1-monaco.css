@@ -3249,3 +3249,4 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 body.article_list .block.edito { position: relative; padding-left: 6vw; margin-bottom: 0vw; margin-top: 5vw; }
 body.article_list .list-articles article.la-item.topic_new:after { content: "New"; position: absolute; top: 0px; left:250px ; width: 80px; height: 80px; background: #0f1e47; font-size: 20px; color: #fff; line-height: 80px; border-radius: 50%; display: block; vertical-align: middle; text-align: center; font-weight: 700; }
 
+.front .block.edito p { font-size: 1.1vw; line-height: 1.7; }
