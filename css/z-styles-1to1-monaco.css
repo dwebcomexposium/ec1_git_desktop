@@ -2618,8 +2618,9 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 	Actions
 \* ------------------------------------------------------------ */
 
-.actions { display: flex; margin-bottom: 81px; position: relative; }
-.actions:after { content: ''; position: absolute; top: -125px; left: -35px; background: url(images/circle1.png) no-repeat 0 0; width: 202px; height: 352px;   }
+.actions { display: flex; position: relative; }
+.front .actions { margin-bottom: 81px;  }
+.front .actions:after { content: ''; position: absolute; top: -125px; left: -35px; background: url(images/circle1.png) no-repeat 0 0; width: 202px; height: 352px;   }
 .actions > * { flex: 0 0 50%; max-width: 50%; position: relative; z-index: 10; }
 
 @media (max-width: 767px) {
