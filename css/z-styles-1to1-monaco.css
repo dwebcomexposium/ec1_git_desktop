@@ -140,11 +140,11 @@ word-wrap: normal;
 
 @media (max-width: 1199px) {
 	.site-banner.header-collapsed .nav a { padding: 20px 10px; }
-
 	.site-banner.header-collapsed .nav { padding: 0 !important; }
 }
 
 @media (max-width: 1023px) {
+	#zone3 a.on-demand { display: none; }
 	.site-banner { padding: 0 27vw 0 0 !important; }
 	.site-banner { padding: 30px 0 !important; background: #fff !important; }
 	.site-banner .logo { margin: 0 !important; }
@@ -444,14 +444,14 @@ word-wrap: normal;
 
 .section { position: fixed; width: 19%; height: 100%; top: 0; right: 0; background: #0f1e47; z-index: 10; }
 
-.section .dates { font-family: 'Proxima Nova', sans-serif; font-size: 75px; line-height: 1.07; font-weight: 700; color: #fff; text-transform: uppercase; position: absolute; width: 650px; top: 390px; left: -100px; padding: 0; margin: -37px 0 0 0; border: 0; 
+.section .dates { font-family: 'Proxima Nova', sans-serif; font-size: 65px; line-height: 1.07; font-weight: 700; color: #fff; text-transform: uppercase; position: absolute; width: 650px; top: 390px; left: -100px; padding: 0; margin: -37px 0 0 0; border: 0; 
 	-webkit-transform: rotate(90deg); 
 	    -ms-transform: rotate(90deg); 
 	     -o-transform: rotate(90deg); 
 	        transform: rotate(90deg); 
 }
 
-.section .dates sup { font-size: 12px; font-weight: 300; letter-spacing: 0.25em; position: relative; top: -30px; }
+.section .dates sup { font-size: 12px; font-weight: 300; letter-spacing: 0.25em; position: relative; top: -30px; margin-left: 20px; }
 .section .dates em { font-style: normal; margin-left: -6px; }
 
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
@@ -462,7 +462,7 @@ word-wrap: normal;
 .section .dates strong { position: relative; display: block; padding-top: .4vw; font-size: 1.02vw; font-weight: 400; letter-spacing: 0.1em; z-index: 3; }
 .section > * { z-index: 4; }
 
-.section > strong { position: absolute; right: 102px; top: 750px; font-size: 16px; color: #fff; font-weight: 600; letter-spacing: 0.05em; }
+.section > strong { position: absolute; right: 102px; top: 770px; font-size: 16px; color: #fff; font-weight: 600; letter-spacing: 0.05em; }
 .section > strong:after { content: ''; display: inline-block; width: 14px; height: 14px; background: #1770af; border-radius: 50%; vertical-align: middle; margin-left: 11px; }
 
 .section .socials { position: absolute; top: 102px; left: 70px; z-index: 8; }
@@ -484,8 +484,8 @@ word-wrap: normal;
 }
 
 @media (max-width: 1700px) {
-	.section .dates { left: -125px; font-size: 65px; top: 400px; }
-	.section > strong { right: 52px; top: 663px; }
+	.section .dates { left: -125px; font-size: 60px; top: 400px; }
+	.section > strong { right: 52px; /*top: 663px;*/ }
 }
 
 @media (max-width: 1500px) {
@@ -503,15 +503,15 @@ word-wrap: normal;
 
 
 @media (max-width: 1365px) {
-	.section .dates { font-size: 60px; top: 380px; left: -140px; width: 600px; }
-	.section .socials { left: 45px; }
-	.section > strong { top: 620px; right: 20px; }
+	.section .dates { font-size: 50px; top: 387px; left: -140px; width: 600px; }
+	.section .socials { left: 40px; }
+	.section > strong { top: 620px; right: 40px; }
 }
 
 @media (max-width: 1199px) {
-.section .dates { font-size: 55px; top: 410px; left: -185px; width: 655px; }
+.section .dates { font-size: 45px; top: 420px; left: -185px; width: 655px; }
 .section .socials { left: 35px; }
-.section > strong { top: 620px; right: 20px; }
+.section > strong { top: 620px; right: 40px; }
 }
 
 
@@ -1916,7 +1916,7 @@ word-wrap: normal;
 
 	.section .dates { font-size: 34px; margin-bottom: 0; letter-spacing: -0.01em; }
 	.section .dates em {  font-size: 21px; margin-top: -2px; letter-spacing: 0; }
-	.section .dates sup { font-size: 12px; margin-top: 9px; letter-spacing: 0; }
+	.section .dates sup { font-size: 12px; margin-top: 10px; letter-spacing: 0; margin-left: 0; 	}
 
 
 
@@ -3246,8 +3246,12 @@ ul.style3 li figure {margin: 0!important; padding: 0!important; }
 
 
 /* anim list new*/
-
 body.article_list .block.edito { position: relative; padding-left: 6vw; margin-bottom: 0vw; margin-top: 5vw; }
 body.article_list .list-articles article.la-item.topic_new:after { content: "New"; position: absolute; top: 0px; left:250px ; width: 80px; height: 80px; background: #0f1e47; font-size: 20px; color: #fff; line-height: 80px; border-radius: 50%; display: block; vertical-align: middle; text-align: center; font-weight: 700; }
 
 .front .block.edito p { font-size: 1.1vw; line-height: 1.7; }
+
+
+/*On demand*/
+#zone3 .on-demand { z-index: 9999; display: block; position: fixed; margin-left: -200px; top: 100px; width: 250px; height: 250px; text-align: center; padding-top: 24px; text-decoration: none; }
+#zone3 .on-demand svg {box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); border-radius: 200px; width: 200px; height: 200px; }
