@@ -2903,7 +2903,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .wrapper-iframe {width: 90%; height: 100%; margin: 0 auto; background: #ccc }
 .h_iframe {	position: relative }
 .h_iframe .ratio { display: block; 	width: 100%; height: auto }
-.h_iframe iframe { position: absolute; top: 0; left: 0; 	width: 100%; height: 100% }
+.h_iframe iframe { position: inherit; top: 0; left: 0; 	width: 50em; height: 35em }
 
 /*.front .section-tertiary, .front .partner, .front .participants, .site-banner .lang-switcher { display: none; }*/
 /*.site-banner .main-navigation { float: right; padding: 0 2.7vw 0 0;  }*/
