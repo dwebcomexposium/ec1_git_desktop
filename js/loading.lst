@@ -4,7 +4,6 @@ vendor/hammerjs/hammer.min.js
 vendor/mustache.js/jquery.mustache.js
 vendor/masonry/dist/masonry.pkgd.min.js
 vendor/imagesloaded/imagesloaded.pkgd.min.js
-cookies-warning.min.js
 modules/*
 wb/*
 scripts-1to1-monaco.js
